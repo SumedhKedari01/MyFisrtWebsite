@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    /* image-rendering: url("logo.p"); */
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: Arial, 'ubuntu';
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 28px;
+    background-color: black;
+}
+.logo
+{
+    height: 21px;
+    width: 22px;
+       
+}
+nav ul li{
+    color: white;
+    margin: 5px;
+    padding-bottom: 0 12px;
+    font-size: 10px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
